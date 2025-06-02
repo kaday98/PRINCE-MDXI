@@ -10,9 +10,9 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put your session-id here. Must Start with 'PRINCE-MDX~'",
+      "description": "PRINCE-MDX~6vGQbg4D4lMoGd4LNcfV",
       "required": true,
-      "value": ""
+      "value": "PRINCE-MDX~6vGQbg4D4lMoGd4LNcfV"
     },  
     "MODE": {
       "description": "Set Mode  to 'public' to work in all chats only, 'inbox' to work in pm(inbox) chats only or 'private' to work for you only. Default is 'public'. You can set up this later using .mode",
@@ -20,14 +20,14 @@
       "value": "public"
     },
     "OWNER_NAME": {
-      "description": "Put Owner Name Here",
+      "description": "𝐉𝐎𝐒𝐈𝐘𝐀_𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐗𝐌𝐃",
       "required": true,
-      "value": "PRINCE"
+      "value": "𝐉𝐎𝐒𝐈𝐘𝐀_𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐗𝐌𝐃"
     },
     "OWNER_NUMBER": {
-      "description": "Put only one Owner Number Here ie 237xxxxx",
+      "description": "94723369091",
       "required": true,
-      "value": "237677224245"
+      "value": "94723369091"
     },
     "ANTI_DELETE": {
       "description": "Can be set to 'inboxonly' to recover for personal chats only, 'chatsonly' to recover for groups and personal chats only or 'true' to recover all chats and status updates. Default is 'false'. You can set up this later using .antidelete",
@@ -37,12 +37,12 @@
     "SUDO_NUMBERS": {
       "description": "Put Sudo Numbers separated by comma Here ie 2347xxxx,2357xxxxx,920xxxxx. Sudos have same rights as owner(can command the bot). if you don't want leave the space empty",
       "required": false,
-      "value": ""
+      "value": "94766002356"
     },
     "CHAT_BOT": {
       "description": "Put value to 'true' to enablle for all chats or 'inbox' to ebanle in pm(inbox) chats only or 'groups' to enable in groups only else false. You can set up this later using .chatbot",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "AUTO_READ_STATUS": {
       "description": "Make it 'true' if you want bot to view statuses. You can set up this later using .autoview",
@@ -57,7 +57,7 @@
     "AUTO_LIKE_EMOJIS": {
       "description": "Input your custom status like emoji(s) else leave to use default emojis. Only works if autolike status is 'true'",
       "required": false,
-      "value": "💜,💛,❤️,🤍,💙"
+      "value": "💜,💛,❤️,🤍,💙,💗,🩵,💔,❤️‍🩹,🙈,🍆"
     },
     "AUTO_REPLY_STATUS": {
       "description": "Make it 'true' if you want the bot to send message after viewing status",
@@ -65,7 +65,7 @@
       "value": "false"
     },
     "STATUS_REPLY_MSG": {
-      "description": "Set your status reply message to be sent after bot views status",
+      "description": "st viewed by 𝐉𝐎𝐒𝐈𝐘𝐀_𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐗𝐌𝐃",
       "required": false,
       "value": "Status Viewed ✅️"
     },
@@ -83,7 +83,7 @@
     "ANTILINK": {
       "description": "Enter 'true' to delete links and kick the user automatically or 'delete' to delete the links without kicking the user or 'warn' to warn users 3 times before kicking them. You can set up this later using .antilink",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "ANTIBAD": {
       "description": "Enter 'true' to automatically delete bad words sent by users in groups. You can set up this later using .antibad",
@@ -119,18 +119,18 @@
     "ANTICALL_MSG": {
       "description": "Put Your own Anticall Message the bot will send after rejecting calls",
       "required": false,
-      "value": "*_📞 Auto Call Reject Mode Activated by PRINCE-MDX. 📵 No Calls Allowed!_*"
+      "value": "*_📞 Auto Call Reject Mode Activated by 𝐉𝐎𝐒𝐈𝐘𝐀_𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐗𝐌𝐃. 📵 No Calls Allowed!_*"
     },
     "BOT_NAME": {
       "description": "You can edit this but maintain font style for uniformity. Use 'Fonts Type Keyboard' for styles.",
       "required": false,
-      "value": "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗"
+      "value": "𝐉𝐎𝐒𝐈𝐘𝐀_𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐗𝐌𝐃"
     },
     
     "PACK_NAME": {
       "description": "You can enter your sticker pack name.",
       "required": false,
-      "value": "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗𝐈"
+      "value": "𝐉𝐎𝐒𝐈𝐘𝐀_𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋-𝐗𝐌𝐃"
     },
     "PREFIX": {
       "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
